@@ -3,30 +3,24 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="ahorcado.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Libre+Bodoni:ital@1&family=Righteous&family=Water+Brush&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
         <title>Juego del ahorcado</title>
-     </head>
-        
-    <body>
-        <header>            
-            <img class="imagTitulo" src="img/Vector.png" alt="logo de Mus">
-        </header>
-            
-          <h1>Juego de Ahorcado</h1>
-          <br></br>
-          <br></br>
-        
-        <div >
+    </head>      
+    <body class="flex-container">
+        <div class="contHeader">
+            <header>            
+                <h1>Juego de Ahorcado</h1>
+                <img class="imagTitulo" src="img/ooo/logo ahorcado.jpg" alt="logo de Mus">
+            </header>             
+        </div>  
+        <div class="contIput">
             <input type="text" id="texto1"  placeholder="introduzca su palabra aqui"></input>
         </div>   
-
-        <div>  
-            <button onclick="document.location='file:///D:/logica%20de%20programacion/Juego%20ahorcado/ahorcado.html'">Inicio</button>        
-        </div>
-        <div> 
-
+        <div class="contButton">  
+            <button onclick="document.location='file:///D:/logica%20de%20programacion/Juego%20ahorcado/ahorcado.html'">Iniciar Juego</button>        
             <button>
                 Agregar Palabra
             </button>

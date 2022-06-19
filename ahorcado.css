@@ -1,0 +1,29 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.contIput{
+    margin: 30px auto;
+}
+
+.contButton {
+    justify-content:space-between;
+}
+
+
+button {
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+  }
