@@ -112,4 +112,9 @@ function inicio() {
 window.onload = inicio();
 
 
-
+function addWord(){
+  addWord = document.querySelector("#texto1").value;
+  console.log(addWord);
+  palabras.push(addWord);
+  console.log(palabras);
+  }
