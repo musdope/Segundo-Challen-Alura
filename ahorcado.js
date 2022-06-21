@@ -110,3 +110,6 @@ function inicio() {
 
 // Iniciar
 window.onload = inicio();
+
+
+
